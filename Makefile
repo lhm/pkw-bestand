@@ -1,6 +1,9 @@
 download: venv
 	./venv/bin/python scripts/download.py
 
+data/kfzbestand-nach-kraftstoffarten.csv: venv download
+	./venv/bin/python scripts/process.py
+
 venv: scripts/requirements.txt
 	[ -d ./venv ] || python3 -m venv venv
 	./venv/bin/pip install --upgrade pip
