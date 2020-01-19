@@ -1,0 +1,8 @@
+venv
+files
+*.csv
+*.zip
+*.pyc
+*.sqlite
+*.geojson
+!examples/*.geojson
