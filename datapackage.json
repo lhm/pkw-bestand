@@ -1,0 +1,118 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "data/kfzbestand-20190101.csv",
+            "profile": "tabular-data-resource",
+            "name": "kfzbestand-20190101",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "KS",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Zulassungsbezirk",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Benzin",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Diesel",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Gas",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Hybrid",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Elektro",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Sonstige Kraftstoffart",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Euro 1",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Euro 2",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Euro 3",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Euro 4",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Euro 5",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Euro 6",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Sonstige Emissionsgruppe",
+                        "type": "integer",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "name": "pkw-bestand-nach-bezirk",
+    "title": "FZ1.2 Personenkraftwagen am 1. Januar 2019 nach Zulassungsbezirken, Kraftstoffarten und Emissionsgruppen",
+    "homepage": "https://www.kba.de/DE/Statistik/Fahrzeuge/Bestand/Umwelt/umwelt_node.html",
+    "description": "https://www.kba.de/DE/Statistik/Fahrzeuge/fz_methodische_erlaueterungen_201901_pdf.pdf?__blob=publicationFile&v=7",
+    "contributors": [
+        {
+            "title": "Kraftfahrt-Bundesamt, Flensburg",
+            "path": "https://www.kba.de",
+            "role": "publisher"
+        }
+    ],
+    "sources": [
+        {
+            "title": "Kraftfahrt-Bundesamt, Flensburg",
+            "path": "https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019/fz1_2019_xlsx.xlsx?__blob=publicationFile&v=10"
+        }
+    ],
+    "licenses": [
+        {
+            "name": "other-at",
+            "path": "https://www.kba.de/EN/Service_en/Hinweise_en/urheberrechtliche_inhalt_en.html?nn=644206"
+        }
+    ]
+}

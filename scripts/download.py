@@ -5,8 +5,8 @@ from utils import root
 cache = root / '.cache'
 requests_cache.install_cache(str(cache))
 
-url = 'https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019/fz1_2019_xlsx.xlsx?__blob=publicationFile&v=10'
-response = requests.get(url)
+source_url = 'https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Fahrzeuge/FZ/2019/fz1_2019_xlsx.xlsx?__blob=publicationFile&v=10'
+response = requests.get(source_url)
 response.raise_for_status()
 
 with open(root / 'files' / 'fz1_2019_xlsx.xlsx', 'wb') as f:
