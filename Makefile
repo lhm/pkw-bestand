@@ -1,7 +1,7 @@
 download: venv
 	./venv/bin/python scripts/download.py
 
-data/kfzbestand-nach-kraftstoffarten.csv: venv download
+data/kfzbestand-20190101.csv: venv download
 	./venv/bin/python scripts/process.py
 
 venv: scripts/requirements.txt
