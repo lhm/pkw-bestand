@@ -2,9 +2,9 @@
     "profile": "tabular-data-package",
     "resources": [
         {
-            "path": "data/kfzbestand-20190101.csv",
+            "path": "data/pkw-bestand-20190101.csv",
             "profile": "tabular-data-resource",
-            "name": "kfzbestand-20190101",
+            "name": "pkw-bestand-20190101",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",

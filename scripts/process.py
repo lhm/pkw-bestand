@@ -32,7 +32,7 @@ args = {
 }
 
 infile = filesdir / 'fz1_2019_xlsx.xlsx'
-outfile = datadir / 'kfzbestand-20190101.csv'
+outfile = datadir / 'pkw-bestand-20190101.csv'
 
 def clean(df):
     # remove subtotal rows

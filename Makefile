@@ -1,10 +1,10 @@
 download: venv
 	./venv/bin/python scripts/download.py
 
-data/kfzbestand-20190101.csv: venv download
+data/pkw-bestand-20190101.csv: venv download
 	./venv/bin/python scripts/process.py
 
-datapackage.json: venv data/kfzbestand-20190101.csv
+datapackage.json: venv data/pkw-bestand-20190101.csv
 	./venv/bin/python scripts/create-package.py
 
 venv: scripts/requirements.txt
