@@ -5,4 +5,4 @@ files
 *.pyc
 *.sqlite
 *.geojson
-!examples/*.geojson
+!data/pkw-bestand-20190101.csv
